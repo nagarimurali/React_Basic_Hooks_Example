@@ -14,21 +14,45 @@
 
 // UseReducerExample
 // import UseReducerExample from "./ReactHooks/UseReducerHook/UseReducerExample";
-import UseReduceHookExample2 from "./ReactHooks/UseReducerHook/UseReduceHookExample2";
-import { useContext } from "react";
-import { Mode } from "./context/modeContext";
+// import UseReduceHookExample2 from "./ReactHooks/UseReducerHook/UseReduceHookExample2";
+// import { useContext } from "react";
+// import { Mode } from "./context/modeContext";
 
-const App=()=>{
-  const mode=useContext(Mode)
-  console.log("Mode",mode);
-  return(
+//Final 
+import FinalUseState from "./ReactHooks/useStateHook/FinalUseState";
+
+
+
+const App = () => {
+ 
+  return (
     <>
-      <div style={{ background:mode.theme === 'light' ? 'green' : 'orange' }}>
-    {/* <div style={{background:`${mode.theme}==="light"?"red":"green"`}}> */}
-<h4>{mode.theme}</h4>
-  <UseReduceHookExample2/>
-    </div>
+ <FinalUseState />
+     
     </>
   )
 }
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <div style={{ background: mode.theme === 'light' ? 'green' : 'orange' }}>
+// <FinalUseState/>
+// </div>
