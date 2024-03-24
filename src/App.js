@@ -23,7 +23,7 @@ const App=()=>{
   console.log("Mode",mode);
   return(
     <>
-      <div style={{ background:mode.theme === 'light' ? 'red' : 'orange' }}>
+      <div style={{ background:mode.theme === 'light' ? 'green' : 'orange' }}>
     {/* <div style={{background:`${mode.theme}==="light"?"red":"green"`}}> */}
 <h4>{mode.theme}</h4>
   <UseReduceHookExample2/>
