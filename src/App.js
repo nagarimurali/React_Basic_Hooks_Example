@@ -20,7 +20,8 @@
 
 //Final 
 // import FinalUseState from "./ReactHooks/useStateHook/FinalUseState";
-import FinalUseEffectEx from './ReactHooks/UseEeffectHook/FinalUseEffectEx'
+//import FinalUseEffectEx from './ReactHooks/UseEeffectHook/FinalUseEffectEx'
+import FinalUseContextEx from './ReactHooks/UseContex/FinalUseContextEx'
 
 
 
@@ -28,8 +29,8 @@ const App = () => {
  
   return (
     <>
-
-<FinalUseEffectEx/>
+  <FinalUseContextEx/>
+{/* <FinalUseEffectEx/> */}
     </>
   )
 }

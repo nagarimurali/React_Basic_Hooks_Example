@@ -9,6 +9,19 @@ body{
     font-size: 100%;
     letter-spacing: 1px;
 }
+.Dark{
+    background: black;
+    color: white;
+
+}
+.Light{
+    background-color: #fff;
+    color: #000;
+
+}
+.divTag{
+    height: 100vh
+}
 .app{
     
     margin-top: 50px;
