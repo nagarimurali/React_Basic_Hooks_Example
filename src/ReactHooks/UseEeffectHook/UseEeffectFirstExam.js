@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { useState, useEffect } from 'react'
+
 const apiUrl = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=';
 
 const UseEeffectFirstExam = () => {
@@ -29,7 +30,7 @@ const UseEeffectFirstExam = () => {
                 msg:""
             });
             if(!drinks){
-                throw new Error("Data not fond");
+                throw new Error("Data not found");
             }
 
         } catch (error) {
@@ -47,7 +48,6 @@ const UseEeffectFirstExam = () => {
 
     useEffect(() => {
         const basiUrl = `${apiUrl}${searchItem}`
-
         feachDrinkData(basiUrl)
 
     }, [searchItem])

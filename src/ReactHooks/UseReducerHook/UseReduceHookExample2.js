@@ -148,14 +148,7 @@ const UseReduceHookExample2 = () => {
 
 
     const mode = useContext(Mode);
-    // const[light,setLight]=useState(mode.theme);
-
-    // const modeChange=()=>{
-    //     setLight("")
-
-    // }
-
-
+   
 
 
     return (

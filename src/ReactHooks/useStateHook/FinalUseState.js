@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import "./../../Styles/FinalUseState.css"
-
 const FinalUseState = () => {
     const [modal, setModal] = useState(false);
     const [user, setUser] = useState({
@@ -51,8 +50,6 @@ const FinalUseState = () => {
                 mobile: user.mobile
             }
             setList([...list, newUserDetails]);
-
-
 
         }
         setModal(false);

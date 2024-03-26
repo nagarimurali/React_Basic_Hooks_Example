@@ -19,7 +19,8 @@
 // import { Mode } from "./context/modeContext";
 
 //Final 
-import FinalUseState from "./ReactHooks/useStateHook/FinalUseState";
+// import FinalUseState from "./ReactHooks/useStateHook/FinalUseState";
+import FinalUseEffectEx from './ReactHooks/UseEeffectHook/FinalUseEffectEx'
 
 
 
@@ -27,8 +28,8 @@ const App = () => {
  
   return (
     <>
- <FinalUseState />
-     
+
+<FinalUseEffectEx/>
     </>
   )
 }

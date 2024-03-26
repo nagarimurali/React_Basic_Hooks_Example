@@ -34,7 +34,7 @@ body{
      margin:0px 8px ;
  }
 
-/* .movie-container{
+.movie-container{
     background: whitesmoke;
     width: 100%;
     max-width: 1200px;
@@ -82,7 +82,7 @@ body{
         margin-top:5px ;
     }
     
-} */
+}
 
 .cocktail-data{
    display:grid ; 
