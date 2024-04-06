@@ -21,16 +21,29 @@
 //Final 
 // import FinalUseState from "./ReactHooks/useStateHook/FinalUseState";
 //import FinalUseEffectEx from './ReactHooks/UseEeffectHook/FinalUseEffectEx'
-import FinalUseContextEx from './ReactHooks/UseContex/FinalUseContextEx'
+// import FinalUseContextEx from './ReactHooks/UseContex/FinalUseContextEx'
 
+//Higher order
+// import Final from "./ReactHooks/HigherOrderFunction/Final";
+// import Final1 from "./ReactHooks/HigherOrderFunction/Final1";
 
+// import UseEeffectExample4 from "./ReactHooks/UseEeffectHook/UseEeffectExample4";
+
+// import FinalUseReduceHook from "./ReactHooks/UseReducerHook/FinalUseReduceHook";
+
+// import UseCntexHooksEx from "./ReactHooks/UseContex/UseCntexHooksEx";
+
+// import FinalUseReduceHook from './ReactHooks/UseReducerHook/FinalUseReduceHook'
+
+// import InterviewQuestion from "./ReactHooks/InterviewQuestion";
+import UseRefHookEx from "./ReactHooks/UseRefHook/UseRefHookEx";
 
 const App = () => {
  
   return (
     <>
-  <FinalUseContextEx/>
-{/* <FinalUseEffectEx/> */}
+<UseRefHookEx/>
+
     </>
   )
 }
@@ -54,7 +67,3 @@ export default App;
 
 
 
-
-// <div style={{ background: mode.theme === 'light' ? 'green' : 'orange' }}>
-// <FinalUseState/>
-// </div>

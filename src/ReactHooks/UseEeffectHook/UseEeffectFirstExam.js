@@ -46,11 +46,16 @@ const UseEeffectFirstExam = () => {
 
     }
 
-    useEffect(() => {
-        const basiUrl = `${apiUrl}${searchItem}`
-        feachDrinkData(basiUrl)
+    // useEffect(() => {
+    //     const basiUrl = `${apiUrl}${searchItem}`
+    //     feachDrinkData(basiUrl)
 
-    }, [searchItem])
+    // }, [searchItem])
+
+
+useEffect(()=>{
+    
+})
 
 
     return (
