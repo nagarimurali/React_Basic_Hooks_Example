@@ -41,13 +41,15 @@
 
 // import UseMemoHook from "./ReactHooks/UseMemo/UseMemoHook";
 
-import UseCallBackHookEx from "./ReactHooks/UseCallBack/UseCallBackHookEx";
+// import UseCallBackHookEx from "./ReactHooks/UseCallBack/UseCallBackHookEx";
+
+import CustomMainPge from "./ReactHooks/CustomHooks/CustomMainPge";
 
 const App = () => {
  
   return (
     <>
-<UseCallBackHookEx/>
+<CustomMainPge/>
 
     </>
   )
