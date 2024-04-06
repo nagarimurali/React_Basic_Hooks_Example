@@ -39,13 +39,15 @@
 
 // import UseRefHookEx from "./ReactHooks/UseRefHook/UseRefHookEx";
 
-import UseMemoHook from "./ReactHooks/UseMemo/UseMemoHook";
+// import UseMemoHook from "./ReactHooks/UseMemo/UseMemoHook";
+
+import UseCallBackHookEx from "./ReactHooks/UseCallBack/UseCallBackHookEx";
 
 const App = () => {
  
   return (
     <>
-<UseMemoHook/>
+<UseCallBackHookEx/>
 
     </>
   )
