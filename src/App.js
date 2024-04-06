@@ -36,13 +36,16 @@
 // import FinalUseReduceHook from './ReactHooks/UseReducerHook/FinalUseReduceHook'
 
 // import InterviewQuestion from "./ReactHooks/InterviewQuestion";
-import UseRefHookEx from "./ReactHooks/UseRefHook/UseRefHookEx";
+
+// import UseRefHookEx from "./ReactHooks/UseRefHook/UseRefHookEx";
+
+import UseMemoHook from "./ReactHooks/UseMemo/UseMemoHook";
 
 const App = () => {
  
   return (
     <>
-<UseRefHookEx/>
+<UseMemoHook/>
 
     </>
   )
