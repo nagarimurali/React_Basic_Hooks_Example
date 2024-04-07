@@ -9,6 +9,8 @@ import Success from './Success';
 import Project from './Project';
 import NewProject from './NewProject';
 import FetureProject from './FetureProject';
+import User from './DynamicRouter/User';
+import UserDetails from './DynamicRouter/UserDetails';
 
 
 const RouterApp = () => {
@@ -26,6 +28,8 @@ const RouterApp = () => {
                     <Route path='feture' element={<FetureProject />} />
                     <Route path='new' element={<NewProject/>}/>
                 </Route>
+                <Route path='/users'element={<User/>}/>
+                <Route path='/users/:userId' element={<UserDetails/>}/>
                 <Route path='*' element={<NotFond />} />
             </Routes>
 

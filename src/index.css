@@ -8,6 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     letter-spacing: 1px;
+    text-align: center;
 }
 .Dark{
     background: black;
@@ -131,4 +132,22 @@ nav a.active{
     font-weight: 400;
     text-decoration: none;
     color: yellowgreen;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:5px
+}
+@media screen and(min-width:720px){
+    .card-container{
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:5px
+    }
+}
+.card{
+    background-color: lightblue;
+    padding: 10px;
 }
