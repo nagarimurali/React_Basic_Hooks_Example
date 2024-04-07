@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import {BrowserRouter} from 'react-router-dom'
+// import App from './App';
 import "./index.css"
 // import { UsercontextProvide } from './context/useContext';
 // import { ModeProvider } from './context/modeContext';
@@ -11,18 +12,13 @@ import "./index.css"
 //     <App />
 //   );
 // }, 1000);
-import UserDataContextProvider from './context/useContexProps';
+// import UserDataContextProvider from './context/useContexProps';
+import RouterApp from './Routers/components/RouterApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
-  <UserDataContextProvider>
-    <App />
-  </UserDataContextProvider>
-
-
-
-
-
-
+ < BrowserRouter>
+ <RouterApp />
+ </BrowserRouter>
+    
 )

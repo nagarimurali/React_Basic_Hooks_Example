@@ -117,3 +117,18 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 }
+
+nav{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.primeNavBar nav a{
+    margin-right: 5rem;
+
+}
+
+nav a.active{
+    font-weight: 400;
+    text-decoration: none;
+    color: yellowgreen;
+}
