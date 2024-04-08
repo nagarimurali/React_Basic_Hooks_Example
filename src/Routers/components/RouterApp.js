@@ -11,13 +11,16 @@ import NewProject from './NewProject';
 import FetureProject from './FetureProject';
 import User from './DynamicRouter/User';
 import UserDetails from './DynamicRouter/UserDetails';
-
+import { AuthContextProvider } from './AuthFile/auth';
+import Loing from './AuthFile/Loing';
+import Logout from './AuthFile/LogOut';
+import PrivateRoute from './AuthFile/PrivateRoute';
 const LazyAbout = React.lazy(() => import('./About'))
 
 
 const RouterApp = () => {
     return (
-        <div>
+        <AuthContextProvider>
             <Navbar />
             <Routes>
 
@@ -34,12 +37,19 @@ const RouterApp = () => {
                     <Route path='feture' element={<FetureProject />} />
                     <Route path='new' element={<NewProject />} />
                 </Route>
-                <Route path='/users' element={<User />} />
+                <Route path='/users' element={
+                    <PrivateRoute>
+                        <User />
+                    </PrivateRoute>
+
+                } />
                 <Route path='/users/:userId' element={<UserDetails />} />
+                <Route path='/login' element={<Loing />} />
+                <Route path='/logout' element={<Logout />} />
                 <Route path='*' element={<NotFond />} />
             </Routes>
 
-        </div>
+        </AuthContextProvider>
     )
 }
 

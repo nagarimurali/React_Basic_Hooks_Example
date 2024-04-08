@@ -1,9 +1,12 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom'
-
+import { useAuth } from './AuthFile/auth'
 
 const Home = () => {
-    const navigate=useNavigate()
+  const data=useAuth();
+
+    const navigate=useNavigate();
+    console.log("data",data);
   return (
     <div>
      <h1>Home</h1> 
