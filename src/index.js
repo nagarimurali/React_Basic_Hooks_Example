@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {BrowserRouter} from 'react-router-dom'
+// import {BrowserRouter} from 'react-router-dom'
 // import App from './App';
-import "./index.css"
+// import "./index.css"
 // import { UsercontextProvide } from './context/useContext';
 // import { ModeProvider } from './context/modeContext';
 // import {DisplayModeProvider} from './context/displayMode'
@@ -13,12 +13,15 @@ import "./index.css"
 //   );
 // }, 1000);
 // import UserDataContextProvider from './context/useContexProps';
-import RouterApp from './Routers/components/RouterApp';
+// import RouterApp from './Routers/components/RouterApp';
+
+import InterviewQuestion from './ReactHooks/InterviewQuestion';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- < BrowserRouter>
- <RouterApp />
- </BrowserRouter>
+    <InterviewQuestion/>
+//  < BrowserRouter>
+//  <RouterApp />
+//  </BrowserRouter>
     
 )
