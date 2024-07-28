@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-pascal-case */
 //UseStateExample
-// import UseStateExample_1 from "./ReactHooks/useStateHook/UseStateExample_1";
+import UseStateExample_1 from "./ReactHooks/useStateHook/UseStateExample_1";
 // import UseStateExam from "./ReactHooks/UseStateExam";
 //  import UseStateBoolean from './ReactHooks/UseStateBoolean'
 // import UseStateExample_1 from "./ReactHooks/useStateHook/UseStateExample_1";
@@ -18,7 +18,7 @@
 // import { useContext } from "react";
 // import { Mode } from "./context/modeContext";
 
-//Final 
+//Final
 // import FinalUseState from "./ReactHooks/useStateHook/FinalUseState";
 //import FinalUseEffectEx from './ReactHooks/UseEeffectHook/FinalUseEffectEx'
 // import FinalUseContextEx from './ReactHooks/UseContex/FinalUseContextEx'
@@ -43,34 +43,14 @@
 
 // import UseCallBackHookEx from "./ReactHooks/UseCallBack/UseCallBackHookEx";
 
-import CustomMainPge from "./ReactHooks/CustomHooks/CustomMainPge";
+// import CustomMainPge from "./ReactHooks/CustomHooks/CustomMainPge";
 
 const App = () => {
- 
   return (
     <>
-<CustomMainPge/>
-
+      <UseStateExample_1 />
+      <h1>Test123</h1>
     </>
-  )
-}
+  );
+};
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
